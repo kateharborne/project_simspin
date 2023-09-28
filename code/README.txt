@@ -1,3 +1,25 @@
-This directory contains the code required to generate the plots in the <project_simspin/paper> directory.
+This directory contains all of the code required to generate the plots in the 
+<project_simspin/paper> directory.
 
-This code is written in the coding language R and uses the R-package "magicaxis" to generate plots. 
+This code is written in the coding language R and uses the R-package "magicaxis"
+to generate plots. First, the SimSpin observation data in <project_simspin/data>
+is generated using the files:
+
+- case_study_1.R
+- case_study_2.R
+- case_study_3.R
+- case_study_4.R
+
+These files should build mock observations used in the examples in Section 3.1 
+of the paper. 
+
+For constructing the observed kinematic maps from the spectral data cubes, it is
+necessary to run pPXF. The code used to do this is written in python and makes 
+use of the pPXF package and EMILES templates included within this repository. 
+The pPXF output is generated (with the SimSpin data above as input) using the 
+files:
+
+- case_study_1_ppxf_fits.ipynb
+- case_study_2_ppxf_fits.ipynb
+- case_study_3_4_ppxf_fits.ipynb
+
