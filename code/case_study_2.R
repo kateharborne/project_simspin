@@ -2,7 +2,7 @@
 # Kate Harborne 
 #
 # Running this file will generate the data for constructing the plots in Case 
-# Study 2 (section 3.1 test 1)
+# Study 2 (section 3.1 test 2)
 #
 ################################################################################
 #
